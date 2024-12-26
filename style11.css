@@ -1,0 +1,186 @@
+@charset "utf-8";
+body{font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.918);
+    /* background: linear-gradient(to bottom, #135058, #F1F2B5); */
+    /* background: linear-gradient(to bottom, #434343, #000000); */
+    color: #ffffff;
+}
+
+h1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgb(255, 255, 255);
+}
+h6
+{
+    font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+.header{
+    text-align: center;
+    background: 
+    padding: 20px;
+    /* background-color: red; 浏览器不支持时显示 */
+    background-image: linear-gradient(#000000,#152331);
+    /* background-image:url(e.png); */
+    border-radius: 10px 10px 10px 10px;
+}
+.nav
+    {
+    a
+    {color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(115, 148, 177, 0.123);
+    }
+    a:hover
+    {
+        background: #7845d670;
+        color: rgb(138, 130, 130);
+        border-radius: 10px 10px 10px 10px;
+    }
+}
+.nav a {
+    color: #ffffff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgba(115, 148, 177, 0.123);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.nav a:hover {
+    background: #7845d670;
+    color: rgb(138, 130, 130);
+}
+.side1
+{
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+    word-break: break-all;
+    /* background-color: rgb(94, 214, 180); */
+    /* background-image: linear-gradient( to right,#b5b9ff,#2b2c49); */
+    background: linear-gradient(to right, #000000, #152331);
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+
+.side2
+{
+    
+    margin: 0 auto;
+    float:left;
+    width: 100%;
+    word-break: break-all;
+    /* background-color: rgb(155, 93, 212); */
+    /* background: linear-gradient(to right, #0ED2F7, #B2FEFA);  */
+    /* background: linear-gradient(to bottom, #0ED2F7, #B2FEFA); */
+    /* background: linear-gradient(to left, #0ED2F7, #B2FEFA);  */
+    background: linear-gradient(to left, #434343, #000000); 
+   
+    border-radius: 10px 10px 10px 10px;
+}
+
+.side3
+{
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+    word-break: break-all;
+    /* background-color: rgb(90, 83, 192); */
+    border-radius: 10px 10px 10px 10px;
+    /* background: linear-gradient(to right, #243B55, #141E30); */
+    /* background: linear-gradient(to left, #F4D03F, #16A085);  */
+    background: linear-gradient(to left, #5cdb95, #05386b);
+}
+
+.side4 
+{
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+    word-break: break-all;
+    background-color: rgb(90, 83, 192);
+    border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(to left, #A5FECB, #20BDFF, #5433FF);
+    /* background: linear-gradient(to left, #86fde8, #acb6e5);  */
+    /* background: linear-gradient(to right, #061161, #780206); */
+}
+
+.side5 
+{
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+    word-break: break-all;
+    background-color: rgb(90, 83, 192);
+    border-radius: 10px 10px 10px 10px;
+    /* background: linear-gradient(to left, #A5FECB, #20BDFF, #5433FF); */
+    background: linear-gradient(to right, #182848, #4b6cb7);
+}
+.side6
+{
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+    word-break: break-all;
+    background-color: rgb(90, 83, 192);
+    border-radius: 10px 10px 10px 10px;
+    /* background: linear-gradient(to left, #A5FECB, #20BDFF, #5433FF); */
+    /* background: linear-gradient(to right, #182848, #4b6cb7); */
+    background: linear-gradient(to left, #85D8CE, #085078); 
+}
+
+.side7
+{
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+    word-break: break-all;
+    background-color: rgb(90, 83, 192);
+    border-radius: 10px 10px 10px 10px;
+    /* background: linear-gradient(to left, #A5FECB, #20BDFF, #5433FF); */
+    /* background: linear-gradient(to right, #182848, #4b6cb7); */
+    /* background: linear-gradient(to left, #85D8CE, #085078);  */
+    background: linear-gradient(to left, #26D0CE, #1A2980); 
+}
+.footer
+{
+    color: aqua;
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+}
+
+
+.header,.nav,.container,.footer
+{
+    /*左浮动 */
+    float: left;
+    /* 满浏览器 */
+    width: 100%;
+}
+
+.side1,.side2,.side3,.side4,.side5,.side6,.side7,.side8,.side9,.side10
+{
+    padding: 10px;
+box-sizing: border-box;
+width: 100%;
+margin-top: 10px;
+
+
+}
+
+
+
+#side1
+{
+    flex-flow: row wrap;
+}
+/* .grid-container { */
+    /* display: grid; */
+    /* grid-row-gap: 50px; */
+  /* } */
+ 
